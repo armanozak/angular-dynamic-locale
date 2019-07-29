@@ -9,6 +9,8 @@ This project is a showcase of how to...
 
 **Note:** Although a complete refresh of the app is avoided, it is invitable to reload the route. Therefore, any requests for route resolution are repeated on language change. This, however, might even be the desired behavior, especially when content received from the server includes translations.
 
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-dynamic-locale)
+
 ## Quickstart
 
 * Make sure Node.js 8+ is installed in your OS.
