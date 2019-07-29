@@ -5,7 +5,9 @@ This project is a showcase of how to...
 * Change LOCALE_ID dynamically in Angular
 * Force built-in Angular pipes to use the new LOCALE_ID
 * Avoid reloading the app
-* Ensure LocaleService works singleton
+* Ensure LocaleService works as singleton
+
+**Note:** Although a complete refresh of the app is avoided, it is invitable to reload the route. Therefore, any requests for route resolution are repeated on language change. This, however, might even be the desired behavior, especially when content received from the server includes translations.
 
 ## Quickstart
 
